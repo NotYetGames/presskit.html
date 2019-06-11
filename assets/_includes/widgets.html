@@ -32,6 +32,12 @@
   </p>
   {{/if}}
 
+  {{#if presskit.widgets.discord}}
+  <p>
+    <iframe src="https://discordapp.com/widget?id={{trim presskit.widgets.discord}}&theme=dark" frameborder="0" class="widget widget--discord"></iframe>
+  </p>
+  {{/if}}
+
   {{#if presskit.widgets.humble}}
   <p>
     <iframe src="https://www.humblebundle.com/widget/v2/product/{{trim presskit.widgets.humble}}" frameborder="0" scrolling="no" class="widget widget--humble"></iframe>

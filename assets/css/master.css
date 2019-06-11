@@ -497,6 +497,11 @@ a:hover {
   height: 190px;
 }
 
+.widget--discord {
+  height: 300px;
+  width: 400px;
+}
+
 .widget--humble {
   height: 328px;
 }
