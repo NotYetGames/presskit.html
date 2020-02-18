@@ -62,5 +62,23 @@
     <iframe src="https://bandcamp.com/EmbeddedPlayer/album={{trim presskit.widgets.bandcamp}}/size=large/bgcol=ffffff/linkcol=3398ff/tracklist=false/artwork=small/transparent=true/" seamless class="widget widget--bandcamp"></iframe>
   </p>
   {{/if}}
+
+  {{#if presskit.widgets.steam_demo}}
+  <p>
+    <iframe src="https://store.steampowered.com/widget/{{trim presskit.widgets.steam_demo}}/" frameborder="0" class="widget widget--steam"></iframe>
+  </p>
+  {{/if}}
+  {{#if presskit.widgets.itch_demo}}
+  <p>
+    <iframe src="https://itch.io/embed/{{trim presskit.widgets.itch_demo}}?dark=true" frameborder="0" class="widget widget--itch"></iframe>
+  </p>
+  {{/if}}
+
+  {{#if presskit.widgets.gamejolt_demo}}
+  <p>
+    <iframe src="https://widgets.gamejolt.com/package/v1?key={{trim presskit.widgets.gamejolt_demo}}" frameborder="0" class="widget widget--gamejolt"></iframe>
+  </p>
+  {{/if}}
+
 </section>
 {{/if}}
